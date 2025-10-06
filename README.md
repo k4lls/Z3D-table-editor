@@ -3,6 +3,8 @@
 A lightweight desktop tool to **inspect, edit, and batch‑update Zonge Z3D receiver files**.  
 It parses GPS timing, computes local start/end times, exposes **UTM** fields for inline editing, and can **apply RXC waypoint coordinates** back into Z3D headers (writing `Lat`/`Lon` as **radians**, preserving field width). It also highlights RX files that **overlap** TX acquisition windows and exports the working table to CSV.
 
+![Example](Example.png)
+
 > Built with Python (Tkinter) and NumPy. Works on macOS/Windows/Linux; can be packaged with PyInstaller.
 
 ---
